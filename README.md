@@ -17,8 +17,6 @@ The Movie DB (https://www.themoviedb.org/documentation/api)
 ## Jenis Navigasi yang digunakan pada Aplikasi
 Navigasi Drawer (Navigasi 4)
 
-## Library dari Local Database yang digunakan pada Aplikasi
-Volley dan Glide
 
 ## Deskripsi Aplikasi
 Aplikasi yang akan menampilkan berbagai macam TvShow. Mulai dari Tv Show yang sedang populer saat ini sampai pada Tv Show yang sekarang sedang tayang. Side bar di samping kanan, akan menampilkan pilihan tampilan Tv Show.
