@@ -4,7 +4,7 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_popular"
-            android:icon="@drawable/ic_menu_slideshow"
+            android:icon="@drawable/ic_slideshow_black_24dp"
             android:title="Popular" />
         <item
             android:id="@+id/nav_rated"

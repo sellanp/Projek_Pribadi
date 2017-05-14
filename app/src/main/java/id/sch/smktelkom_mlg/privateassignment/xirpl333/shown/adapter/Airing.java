@@ -89,8 +89,8 @@ public class Airing extends RecyclerView.Adapter<Airing.ViewHolder> {
         public ViewHolder(View v) {
             super(v);
 
-            tvDesc = (TextView) v.findViewById(R.id.tv_desc);
             tvName = (TextView) v.findViewById(R.id.tv_text);
+            tvDesc = (TextView) v.findViewById(R.id.tv_desc);
             imageView = (ImageView) v.findViewById(R.id.iv_image);
             cardView = (CardView) v.findViewById(R.id.cardView);
         }
