@@ -1,6 +1,8 @@
 package id.sch.smktelkom_mlg.privateassignment.xirpl333.shown.adapter;
 
 import android.content.Context;
+import android.content.Intent;
+import android.support.v7.widget.CardView;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -12,6 +14,7 @@ import com.bumptech.glide.Glide;
 
 import java.util.ArrayList;
 
+import id.sch.smktelkom_mlg.privateassignment.xirpl333.shown.DetailActivity;
 import id.sch.smktelkom_mlg.privateassignment.xirpl333.shown.R;
 import id.sch.smktelkom_mlg.privateassignment.xirpl333.shown.RatedFragment;
 import id.sch.smktelkom_mlg.privateassignment.xirpl333.shown.model.Results;
@@ -46,7 +49,7 @@ public class Rated extends RecyclerView.Adapter<Rated.ViewHolder> {
 
     @Override
     public void onBindViewHolder(ViewHolder holder, int position) {
-        Results results = mList.get(position);
+        final Results results = mList.get(position);
         holder.tvName.setText(results.title);
         holder.tvDesc.setText(results.overview);
         image = url + results.backdrop_path;
@@ -56,6 +59,18 @@ public class Rated extends RecyclerView.Adapter<Rated.ViewHolder> {
                 .placeholder(R.mipmap.ic_launcher_round)
                 .error(R.mipmap.ic_launcher)
                 .into(holder.imageView);
+        holder.cardView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(context, DetailActivity.class);
+                intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                intent.putExtra("movie_title", results.title);
+                intent.putExtra("poster_path", results.backdrop_path);
+                intent.putExtra("description", results.overview);
+                context.startActivity(intent);
+            }
+        });
     }
 
     @Override
@@ -69,6 +84,7 @@ public class Rated extends RecyclerView.Adapter<Rated.ViewHolder> {
         TextView tvName;
         TextView tvDesc;
         ImageView imageView;
+        CardView cardView;
 
         public ViewHolder(View v) {
             super(v);
@@ -76,6 +92,7 @@ public class Rated extends RecyclerView.Adapter<Rated.ViewHolder> {
             tvDesc = (TextView) v.findViewById(R.id.tv_desc);
             tvName = (TextView) v.findViewById(R.id.tv_text);
             imageView = (ImageView) v.findViewById(R.id.iv_image);
+            cardView = (CardView) v.findViewById(R.id.cardView);
         }
     }
 }
