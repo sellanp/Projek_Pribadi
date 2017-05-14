@@ -23,7 +23,7 @@
         android:paddingTop="@dimen/nav_header_vertical_spacing"
         android:text="Show!n"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-        android:textColor="#003973" />
+        android:textColor="#ffffff" />
 
     <TextView
         android:id="@+id/textView"
@@ -33,7 +33,7 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:text="showIn.tv@tschool.com"
-        android:textColor="#1A2980" />
+        android:textColor="#ffffff" />
 
     <ImageView
         android:id="@+id/imageView"
