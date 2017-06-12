@@ -56,7 +56,7 @@ public class Airing extends RecyclerView.Adapter<Airing.ViewHolder> {
         Glide.with(context).load(image)
                 .crossFade()
                 .centerCrop()
-                .placeholder(R.mipmap.ic_launcher_round)
+                .placeholder(R.drawable.tvshow)
                 .error(R.mipmap.ic_launcher)
                 .into(holder.imageView);
         holder.cardView.setOnClickListener(new View.OnClickListener() {
