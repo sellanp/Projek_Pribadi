@@ -26,9 +26,9 @@ Pilihan Tv Show yang ditampilkan adalah Tv Show Popular, Tv Show Top Rated, Tv S
 * Kelebihan dari aplikasi ini adalah tampilan tertata dengan rapi yang akan memudahkan orang yang akan memilih tontonan. Dan kita dapat menyeting reminder untuk membuat kita agar tidak tertinggal satu episode pun dari tv yang akan tayang maupun sedang tayang.
 
 ## Screenshot Aplikasi
-![All_text](https://github.com/sellanp/Projek_Pribadi/blob/master/1(2).png)
+![](https://github.com/sellanp/Projek_Pribadi/blob/master/1%20(2).png)
 ![All_text](https://github.com/sellanp/Projek_Pribadi/blob/master/2.png)
-![All_text](https://github.com/sellanp/Projek_Pribadi/blob/master/3(2).png)
+![](https://github.com/sellanp/Projek_Pribadi/blob/master/3%20(2).png)
 ![All_text](https://github.com/sellanp/Projek_Pribadi/blob/master/4.png)
 ![All_text](https://github.com/sellanp/Projek_Pribadi/blob/master/5.png)
 ![All_text](https://github.com/sellanp/Projek_Pribadi/blob/master/6.png)
