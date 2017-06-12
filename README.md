@@ -12,7 +12,7 @@ Angkatan  : 24 </br>
 SMK TELKOM MALANG </br>
 
 ## Alamat IP yang digunakan
-The Movie DB (https://www.themoviedb.org)
+The Movie DB (https://developers.themoviedb.org/)
 
 ## Jenis Navigasi yang digunakan pada Aplikasi
 Navigasi Drawer (Navigasi 4)
