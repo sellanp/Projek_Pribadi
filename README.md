@@ -2,7 +2,7 @@
 
 ## Nama Aplikasi
 Show!n </br>
-https://www.dropbox.com/s/wn9331wz9rd6fmz/app-release.apk?dl=0
+https://github.com/sellanp/Projek_Pribadi/blob/master/app-release.apk
 
 ## Identitas Siswa
 Nama   : Sella Nanda Puspita </br>
